@@ -82,3 +82,17 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
+
+#Taking the path of templates in tango_with_django_project
+TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
+# Template path
+TEMPLATE_DIRS = ('C:\Users\Dimitris\Desktop\tangowithdjango/tango_with_django_project/',
+TEMPLATE_PATH,
+)
+STATIC_PATH = os.path.join(BASE_DIR,'static')
+
+
+
+STATICFILES_DIRS = ('C:\Users\Dimitris\Desktop\tangowithdjango\tango_with_django_project',
+    STATIC_PATH,
+)
